@@ -1,0 +1,117 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    margin:0;
+    background-color: black;
+    color:#ffffff
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    height:20%;
+     padding: 20px; 
+    text-align: center;
+}
+header span{
+    width:40%;
+    font-size: 40px;
+}
+nav{
+    width:40%;
+       }
+nav a{
+margin-right:15px;
+font-size: 18px;
+}
+nav a:hover{
+    color:yellowgreen
+}
+#landing-sec{
+    width:100%;
+    height:100vh;
+    background-image: url("https://images.unsplash.com/7/Top_view.jpg?fit=crop&fm=jpg&h=700&ixjsv=2.0.0&ixlib=rb-0.3.5&q=80&w=1375");
+}
+#intro-text{
+    padding-top:200px;
+    text-align: center;
+}
+.heading{
+    font-size: 50px;
+    line-height: 2px;
+    text-align: center;
+    color:#fff;
+    padding:15px;
+    text-shadow:  rgb(34, 29, 42) 0px 0px, rgb(67, 15, 67) 2px 3px 4px, rgb(135, 206, 250) 3px 4px 8px;
+}
+#intro-text p{
+    font-size: 20px;
+}
+#intro-btn{
+    text-align: center;
+    margin-top: 100px;
+}
+#intro-btn button{
+    padding:10px 20px;
+    margin-left: 10px;
+    border-radius: 7px;
+    border:none;
+    background-color:rgb(92, 184, 92); 
+    color:#ffffff
+}
+i{
+    margin-right: 5px;
+}
+#intro-btn button:hover{
+    background-color:yellowgreen; 
+}
+a{
+    text-decoration: none;
+}
+.sec-container{
+    width:70%;
+    margin: 0 auto;
+    display:flex ;
+   
+    }
+    #profile{
+        margin-right: 30px;
+        width:300px;
+        border-radius: 50%;
+    }
+    h4{
+        color:rgb(233, 233, 166);
+    }
+    .right img{
+width:400px
+    }
+    .left{
+        width:60%;
+        margin: 20px;
+    }
+    /* #Project-sec div{
+        width:300px;
+    } */
+    #Project-sec img{
+        width:300px
+    }
+
+    #project{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width:70%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #project div:hover{
+        transform: scale(1.2);
+    }
+    footer{
+        height:20%;
+        background-color: #222222;
+        padding: 20px;
+        text-align: center;
+    }
